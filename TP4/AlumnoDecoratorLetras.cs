@@ -26,18 +26,18 @@ namespace TP4
 		
 		public string getNotaConLetras(){
 			switch (getCalificacion()) {
-					case 0: return ("0 (CERO)");break;
-					case 1: return ("1 (UNO)");break;
-					case 2: return ("2 (DOS)");break;
-					case 3: return ("3 (TRES)");break;
-					case 4: return ("4 (CUATRO)");break;
-					case 5: return ("5 (CINCO)");break;
-					case 6: return ("6 (SEIS)");break;
-					case 7: return ("7 (SIETE)");break;
-					case 8: return ("8 (OCHO)");break;
-					case 9: return ("9 (NUEVE)");break;
-					case 10: return ("10 (DIEZ)");break;
-					default: return("0 (CERO)"); break;
+					case 0: return (" (CERO)");break;
+					case 1: return (" (UNO)");break;
+					case 2: return (" (DOS)");break;
+					case 3: return (" (TRES)");break;
+					case 4: return (" (CUATRO)");break;
+					case 5: return (" (CINCO)");break;
+					case 6: return (" (SEIS)");break;
+					case 7: return (" (SIETE)");break;
+					case 8: return (" (OCHO)");break;
+					case 9: return (" (NUEVE)");break;
+					case 10: return (" (DIEZ)");break;
+					default: return(" (CERO)"); break;
 					
 			}
 		}
