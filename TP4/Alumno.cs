@@ -40,7 +40,7 @@ namespace TP4
 		}
 		
 		public string mostrarCalificacion(){
-			return nombre + " " + this.calificacion;
+			return nombre + " " + this.getCalificacion();
 		}
 		
 		public void setEstrategia(IEstrategiaComparacion estra){

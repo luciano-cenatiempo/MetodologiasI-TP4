@@ -40,6 +40,7 @@ namespace TP4
 				alu = (Alumno) FabricaDeComparables.crearAleatorio(FabricaDeComparables.ALUMNO);
 				alu = new AlumnoDecoratorLegajo(alu);
 				alu = new AlumnoDecoratorLetras(alu);
+				alu = new AlumnoDecoratorTipoNota(alu);
 				alu = new AlumnoDecoratorRecuadro(alu);
 				
 				
@@ -49,9 +50,15 @@ namespace TP4
 			
 			for (int i = 0; i < 10; i++)
             {
-				AdaptadorAlumno alumno;
-				alumno = new AdaptadorAlumno((AlumnoMuyEstudioso)(FabricaDeComparables.crearAleatorio(FabricaDeComparables.ALUMNO_ESTUDIOSO)));
-                teacher.goToClass(alumno);
+				IAlumno alu2;
+				alu2 = (AlumnoMuyEstudioso)(FabricaDeComparables.crearAleatorio(FabricaDeComparables.ALUMNO_ESTUDIOSO));
+				
+				alu2 = new AlumnoDecoratorLegajo(alu2);
+				alu2 = new AlumnoDecoratorLetras(alu2);
+				alu2= new AlumnoDecoratorTipoNota(alu2);
+				alu2 = new AlumnoDecoratorRecuadro(alu2);
+				Student student = new AdaptadorAlumno(alu2);
+                teacher.goToClass(student);
             }
 
             teacher.teachingAClass();

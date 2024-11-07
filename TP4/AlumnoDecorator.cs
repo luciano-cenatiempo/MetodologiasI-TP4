@@ -60,17 +60,19 @@ namespace TP4
 
 		public bool sosIgual(Comparable com)
 		{
-			return alumno.sosIgual(com);
+			return ((AlumnoDecorator)com).alumno.sosIgual(((AlumnoDecorator)com).alumno);
 		}
 
 		public bool sosMenor(Comparable com)
 		{
-			return alumno.sosMenor(com);
+			
+			return ((AlumnoDecorator)com).alumno.sosMenor(((AlumnoDecorator)com).alumno);
+			
 		}
 
 		public bool sosMayor(Comparable com)
 		{
-			return alumno.sosMayor(com);
+			return ((AlumnoDecorator)com).alumno.sosMayor(((AlumnoDecorator)com).alumno);
 		}
 	}
 }

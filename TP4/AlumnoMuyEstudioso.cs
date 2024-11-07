@@ -13,7 +13,7 @@ namespace TP4
 	/// <summary>
 	/// Description of AlumnoMuyEstudioso.
 	/// </summary>
-	public class AlumnoMuyEstudioso : Alumno
+	public class AlumnoMuyEstudioso : Alumno, IAlumno
 	{
 		public AlumnoMuyEstudioso() : base() {
 			

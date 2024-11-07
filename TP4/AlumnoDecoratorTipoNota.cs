@@ -22,7 +22,7 @@ namespace TP4
 		
 		 public override string mostrarCalificacion()
         {
-            return base.mostrarCalificacion() + getTipoNota();
+            return base.mostrarCalificacion() + this.getTipoNota();
         }
 
         public string getTipoNota()

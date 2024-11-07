@@ -21,7 +21,7 @@ namespace TP4
 		
 		 public override string mostrarCalificacion()
         {
-		 	return (this.getNombre() + " (" + this.getLegajo() +") " + this.getCalificacion());
+		 	return ( " (" + this.getLegajo() +") " + base.mostrarCalificacion());
         }
 	}
 }
