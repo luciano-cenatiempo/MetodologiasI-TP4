@@ -13,7 +13,7 @@ namespace TP4
 	/// <summary>
 	/// Description of IAlumno.
 	/// </summary>
-	public interface IAlumno 
+	public interface IAlumno : Comparable
 	{
 		string getNombre();
 		

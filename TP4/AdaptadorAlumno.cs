@@ -78,7 +78,7 @@ namespace TP4
 		public bool sosIgual(Comparable com)
 		{
 			if (com is AdaptadorAlumno)
-                return this.alumno.sosIgual(((AdaptadorAlumno)com).getAlumno());
+				return this.alumno.sosIgual(((AdaptadorAlumno)com).getAlumno());
 
             return false;
 		}

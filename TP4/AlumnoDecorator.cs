@@ -57,5 +57,20 @@ namespace TP4
 		}
 
 		#endregion
+
+		public bool sosIgual(Comparable com)
+		{
+			return alumno.sosIgual(com);
+		}
+
+		public bool sosMenor(Comparable com)
+		{
+			return alumno.sosMenor(com);
+		}
+
+		public bool sosMayor(Comparable com)
+		{
+			return alumno.sosMayor(com);
+		}
 	}
 }
