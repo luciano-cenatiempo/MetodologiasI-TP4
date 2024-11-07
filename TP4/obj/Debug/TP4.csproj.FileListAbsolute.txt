@@ -1,0 +1,6 @@
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP4\TP4\obj\Debug\TP4.csprojResolveAssemblyReference.cache
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP4\TP4\bin\Debug\TP4.exe.config
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP4\TP4\bin\Debug\TP4.exe
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP4\TP4\bin\Debug\TP4.pdb
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP4\TP4\obj\Debug\TP4.exe
+C:\Users\luciano.cenatiempo\Documents\SharpDevelop Projects\TP4\TP4\obj\Debug\TP4.pdb
