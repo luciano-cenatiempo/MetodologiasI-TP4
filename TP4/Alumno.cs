@@ -80,15 +80,15 @@ namespace TP4
 		}
 		
 		public override bool sosIgual(Comparable com){
-			return this.estrategia.sosIgual(this,(Alumno)com);
+			return this.estrategia.sosIgual(this,(IAlumno)com);
 			// return this.promedio == ((Alumno)com).getPromedio();
 		}
 		public override bool sosMenor(Comparable com){
-			return this.estrategia.sosMenor(this,(Alumno)com);
+			return this.estrategia.sosMenor(this,(IAlumno)com);
 			//return this.promedio < ((Alumno)com).getPromedio();
 		}
 		public override bool sosMayor(Comparable com){
-			return this.estrategia.sosMayor(this,(Alumno)com);
+			return this.estrategia.sosMayor(this,(IAlumno)com);
 			//return this.promedio > ((Alumno)com).getPromedio();
 		}
 		

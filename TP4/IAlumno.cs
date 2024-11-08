@@ -17,6 +17,8 @@ namespace TP4
 	{
 		string getNombre();
 		
+		int getDni();
+			
 		int getLegajo();
 
         int getPromedio();

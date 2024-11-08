@@ -19,16 +19,16 @@ namespace TP4
 		{
 		}
 		
-		public bool sosIgual(Alumno a1, Alumno a2){
+		public bool sosIgual(IAlumno a1, IAlumno a2){
 			return a1.getNombre().Equals(a2.getNombre());
 		}
 		
-		public bool sosMayor(Alumno a1, Alumno a2){
+		public bool sosMayor(IAlumno a1, IAlumno a2){
 			int comparar = String.Compare(a1.getNombre(), a2.getNombre(), comparisonType: StringComparison.OrdinalIgnoreCase);
 			return comparar > 0;
 		}
 		
-		public bool sosMenor(Alumno a1, Alumno a2){
+		public bool sosMenor(IAlumno a1, IAlumno a2){
 			int comparar = String.Compare(a1.getNombre(), a2.getNombre(), comparisonType: StringComparison.OrdinalIgnoreCase);
 			return comparar < 0;
 		}

@@ -25,6 +25,10 @@ namespace TP4
 		public string getNombre(){
 			return this.alumno.getNombre();
 		}
+		
+		public int getDni(){
+			return this.alumno.getDni();
+		}
 
 		public int getLegajo()
 		{

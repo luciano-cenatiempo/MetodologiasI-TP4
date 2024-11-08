@@ -15,9 +15,8 @@ namespace TP4
 	/// </summary>
 	public interface IEstrategiaComparacion
 	{
-		bool sosMayor(Alumno a1, Alumno a2);
-		bool sosMenor(Alumno a1, Alumno a2);
-		bool sosIgual(Alumno a1, Alumno a2);
-		
+		bool sosMayor(IAlumno a1, IAlumno a2);
+		bool sosMenor(IAlumno a1, IAlumno a2);
+		bool sosIgual(IAlumno a1, IAlumno a2);
 	}
 }
