@@ -25,7 +25,7 @@ namespace TP4
 		}
 		
 		public string califacionRecuadro(){
-			string recuadro = "*********************\n" +"*" + base.mostrarCalificacion() +"*\n" + "*********************\n";
+			string recuadro = "************************************\n" +"*" + base.mostrarCalificacion() +"*\n" + "************************************\n";
 			
 			return recuadro;
 		}
